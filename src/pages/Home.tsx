@@ -9,12 +9,19 @@ const Home: React.FC = () => {
         alt="Profile"
         className="w-32 h-32 rounded-full mb-4"
       />
-      <h1 className="text-4xl font-bold mb-2">Kyle Cagayan</h1>
-      <p className="text-lg text-gray-700 mb-4">
-        Software Engineer | Backend & Full Stack Developer
-      </p>
-    </div>
-  );
-};
+      <pre className="p-6 text-3xl font-sans [font-family:inherit]">
+        <code className="font-sans [font-family:inherit]">
+          <span className="text-purple-400">&lt;h1&gt;</span>
+          <span className="text-black">Hi, I'm Kyle Cagayan</span>
+          <span className="text-purple-400">&lt;/h1&gt;</span>
+          {"\n"}
+          <span className="text-purple-400">&lt;p&gt;</span>
+          <span className="text-black">and I'm a full-stack software developer</span>
+          <span className="text-purple-400">&lt;/p&gt;</span>
+        </code>
+      </pre>
+          </div>
+        );
+      };
 
 export default Home;
