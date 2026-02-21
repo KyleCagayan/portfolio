@@ -35,7 +35,7 @@ const Home: React.FC = () => {
       <div className="mt-2 h-0.5 bg-[#C2D8B9] w-full" />
 
       {/* content */}
-      <div className="flex p-10 flex-col items-center justify-center md:flex-row">
+      <div className="flex p-10 md:mx-25 flex-col items-center justify-center md:flex-row">
         <div className="flex-2 md:w-2/5 p-4">
           <img
             src={profilePic}
@@ -45,13 +45,22 @@ const Home: React.FC = () => {
         </div>
         <div className="flex-3 md:w-3/5 p-4">
           <p className="text-m md:text-xl leading-relaxed">
-              <span className="font-bold font-">Kyle Cagayan</span>.  
+            <span className="text-4xl font-bold font-">Kyle Cagayan</span>
+            <br />
+            <span className="text-sm font-family-sans">FULL STACK SOFTWARE ENGINEER</span>
           </p>
-          <p className="text-m md:text-gray-600 leading-relaxed">
-            I’m a full-stack software engineer who loves building clean, maintainable applications and solving problems that actually matter.  
+          <p>
+            I love building clean, maintainable applications and solving problems that actually matter.  
             I’m comfortable jumping into new technologies, working across teams, and delivering results that make an impact.
-          </p>
+          </p> 
         </div>
+      </div>
+
+      {/* Projects */}
+      <div>
+        <p>
+          I completed my B.Sc in Computer Science from University of North Florida, Jacksonville, Florida. 
+        </p>
       </div>
     </div>
   );
